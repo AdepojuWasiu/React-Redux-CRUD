@@ -61,7 +61,7 @@ const Home = () => {
       </div>
 
       {/* smaller screens */}
-      <div className="block md:hidden">
+      <div className="block md:hidden mt-6">
         {userList.map((user) => (
           <div
             key={user.id}
