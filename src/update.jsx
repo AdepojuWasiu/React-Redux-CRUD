@@ -64,25 +64,6 @@ const Update = () => {
       <div className="max-w-lg w-full bg-white rounded-lg shadow-md p-6">
         <h1 className="text-2xl font-bold mb-4 text-center">Staff Editing Form</h1>
         <form onSubmit={handleSubmit}>
-          {/* ID */}
-          <div className="mb-4">
-            <label
-              htmlFor="id"
-              className="block text-gray-700 font-medium mb-2"
-            >
-              ID
-            </label>
-            <input
-              type="text"
-              id="id"
-              name="id"
-              value={formData.id}
-              onChange={handleChange}
-              placeholder="Enter your ID"
-              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-          </div>
           {/* First Name */}
           <div className="mb-4">
             <label
