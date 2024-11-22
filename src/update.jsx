@@ -56,7 +56,7 @@ const Update = () => {
            <div className='flex flex-row justify-start items-start justify-items-start w-full mb-4'>
           <Link
                         to= {`/`}
-                        className="bg-blue-500 text-white px-5 py-2 rounded hover:bg-blue-600 sm:hidden "
+                        className="bg-blue-500 text-white px-5 py-2 rounded hover:bg-blue-600 lg:hidden "
                       >
                         Back
             </Link>
